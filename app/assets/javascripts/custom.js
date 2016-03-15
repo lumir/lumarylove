@@ -66,7 +66,7 @@ $( document ).ready(function() {
 	  };
 	  
 	  annyang.addCommands(commands);
-	  annyang.start();
+	  //annyang.start();
 	}
 
 	/*------------------------------ Bootstrap Carousel ----------------------*/
@@ -178,25 +178,25 @@ $( document ).ready(function() {
 	
 	/*------------------------------ Twitter Feeds -----------------*/
 	
-    $(".footer-tweet").tweet({
-		join_text: false,
-		username: "envato", // Username
-		modpath: "./js/twitter/",
-		avatar_size: false,
-		count: 3,
-		template: "{text} <br> {time}",
-		loading_text: "loading twitter feed...",
-		seconds_ago_text: "%d seconds ago",
-		a_minutes_ago_text: "a minute ago",
-		minutes_ago_text: "%d minutes ago",
-		a_hours_ago_text: "an hour ago",
-		hours_ago_text: "%d hours ago",
-		a_day_ago_text: "a day ago",
-		days_ago_text: "%d days ago",
-		view_text: "view tweet on twitter"
-	});
+ //    $(".footer-tweet").tweet({
+	// 	join_text: false,
+	// 	username: "envato", // Username
+	// 	modpath: "./js/twitter/",
+	// 	avatar_size: false,
+	// 	count: 3,
+	// 	template: "{text} <br> {time}",
+	// 	loading_text: "loading twitter feed...",
+	// 	seconds_ago_text: "%d seconds ago",
+	// 	a_minutes_ago_text: "a minute ago",
+	// 	minutes_ago_text: "%d minutes ago",
+	// 	a_hours_ago_text: "an hour ago",
+	// 	hours_ago_text: "%d hours ago",
+	// 	a_day_ago_text: "a day ago",
+	// 	days_ago_text: "%d days ago",
+	// 	view_text: "view tweet on twitter"
+	// });
 	
-	$(".footer-tweet ul").owlCarousel({singleItem : true,});
+	// $(".footer-tweet ul").owlCarousel({singleItem : true,});
 	
 	/*------------------------------ Ajax Contact Form -----------------*/
 	
