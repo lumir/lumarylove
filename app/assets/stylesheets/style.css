@@ -1205,7 +1205,7 @@ video#bgvideo {
 
 }			
 .social-icons li a {
-	-moz-transition: all 0.3s ease 0s;
+	/*-moz-transition: all 0.3s ease 0s;*/
 	display: block!important;
 	float: left!important;
 	height: 100%!important;
